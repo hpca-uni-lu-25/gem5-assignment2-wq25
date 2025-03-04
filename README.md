@@ -7,17 +7,26 @@ Title: Effects of Pipelining
 Originally from University of Wisconsin-Madison CS/ECE 752.
 
 Modified for ECS 201A, Winter 2025.
+Modified for HPCA (F1_MA_HPC_2-2) University of Luxembourg, Spring 2025
 
-**Due on 1/27 11:59 pm (PST)**: See [Submission](#submission) for details
+**Due on 18 March 23:59 pm (PST)**: See [Submission](#submission) for details
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
 - [Research question](#research-question)
 - [Workload](#workload)
 - [Experimental setup](#experimental-setup)
+  - [Region of Interest (ROI)](#region-of-interest-roi)
 - [Analysis and simulation](#analysis-and-simulation)
+  - [Step I: Write down your hypotheses](#step-i-write-down-your-hypotheses)
+  - [Step II: Get preliminary data on the instruction mix](#step-ii-get-preliminary-data-on-the-instruction-mix)
+  - [Step II: Developing and running the experiments](#step-ii-developing-and-running-the-experiments)
+  - [Research question:](#research-question-1)
+  - [Next steps (required 201A, extra credit 154B):](#next-steps-required-201a-extra-credit-154b)
 - [Submission](#submission)
+  - [Explanation of how to use your script](#explanation-of-how-to-use-your-script)
 - [Grading](#grading)
 - [Academic misconduct reminder](#academic-misconduct-reminder)
 
@@ -281,6 +290,8 @@ The code included in the "Example command to run the script" section should be a
 - You should include each command used to gather data under "Command used to gather data" in `questions.md`.
   - Make sure this can by copy-pasted and run in your codespace without modification.
   - If you need other files to run your script, make sure to include those files when you commit your changes.
+
+Submit the `questions.md` file also on Moodle.
 
 ## Grading
 
